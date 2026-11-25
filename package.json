@@ -1,0 +1,47 @@
+{
+  "name": "@local/dsh-restart-button",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A red restart button in the Windows caption row that relaunches the DSH desktop app.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "helper.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "restart",
+    "desktop"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yamashigure/dsh-restart-button.git"
+  },
+  "homepage": "https://github.com/Yamashigure/dsh-restart-button#readme",
+  "license": "MIT"
+}

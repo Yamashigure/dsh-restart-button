@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "重启按钮",
+    "description": "在 Windows 标题栏右侧放一枚红按钮，点一下整台 DSH 退出后自己重新打开。",
+    "detail": "docs/DETAIL.md"
+  }
+}

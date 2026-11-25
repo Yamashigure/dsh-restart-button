@@ -1,0 +1,4 @@
+# 重启按钮：一行 Host（注册 /dsh-restart 命令与退出助手），一行 Client（标题栏那枚红按钮）。
+- insert:
+    - id: dsh-restart-button
+      name: '@local/dsh-restart-button'

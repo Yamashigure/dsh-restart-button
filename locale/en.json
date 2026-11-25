@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Restart button",
+    "description": "A red button in the Windows caption row that quits the whole DSH desktop app and starts it again.",
+    "detail": "docs/DETAIL.md"
+  }
+}
